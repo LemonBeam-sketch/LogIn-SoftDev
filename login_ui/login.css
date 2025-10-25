@@ -1,0 +1,17 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.login-card {
+  transition: all 0.3s ease;
+}
+
+@media (min-width: 1025px) {
+  .login-card {
+    max-width: 32rem;
+    padding: 3rem;
+  }
+  input, select, button {
+    font-size: 1rem;
+  }
+}
